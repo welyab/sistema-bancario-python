@@ -51,7 +51,7 @@ while True:
         withdrawal_counter += 1
         print("Saque realizado com sucesso!")
         print(f"Novo saldo: R$ {balance: .2f}")
-        continue
+        continue 
     
     if operation_type == 'e':
         print("##### Extrato de Conta Corrente #####")
